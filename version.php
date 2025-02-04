@@ -30,4 +30,4 @@ $plugin->version = 2024042400;
 $plugin->release = '1.0.7';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'block_myprogress';
-$plugin->supported = [401, 404];
+$plugin->supported = [401, 405];
