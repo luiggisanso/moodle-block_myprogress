@@ -168,7 +168,7 @@ class progress {
 
             $cohorts[] = [
                 'name' => $record->name,
-                'average' => floor($record->average),
+                'average' => floor($record->average ?? 0),
             ];
         }
 
